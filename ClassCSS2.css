@@ -1,0 +1,42 @@
+.box {
+    margin: 50px;
+    padding: 0px 25px;
+    border: 10px dashed rgb(23, 88, 88);
+}
+
+.box2 {
+    padding: 50px;
+    width: 500px;
+    border: 5px dashed cyan;
+    background-color: blue;
+}
+
+.box2in1 {
+    height: 50px;
+    border: 4px solid red;
+    display: block;
+    background-color: teal;
+    margin-bottom: 15px;
+}
+
+.boxxy {
+    border: 4px dotted violet;
+    height: 50px;
+    background-color: brown;
+    display: inline-block;
+    width: 45%;
+}
+.boxxy2 {
+    border: 4px dotted violet;
+    height: 50px;
+    background-color: brown;
+    display: inline-block;
+    width: 45%;
+}
+.box2in2 {
+    height: 50px;
+    border: 4px solid red;
+    display: block;
+    background-color: teal;
+    margin-top: 15px;
+}
