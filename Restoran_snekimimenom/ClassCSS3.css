@@ -1,0 +1,60 @@
+html {
+height: 100%;
+}
+
+body {
+height: 100%;
+background-color: black;
+margin: 0;
+font-family: sans-serif bold;
+}
+.bigbox {
+    height: 100%;
+    display: flex;
+}
+}.LBox {
+    width: 300px;
+    height: 100%;    
+    background-color: white;
+}
+.L1 {
+    width: 100%;
+    height: 50%;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 20px;
+    font-size: 20px;
+}
+.L2 {
+    width: 100%;
+    height: 50%;
+    border-top: 2px solid black;
+    box-sizing: border-box;
+    justify-content: center;
+    align-content: center;
+}
+.DE {
+flex-grow: 1;
+height: 100%;
+padding: 25px;
+display: flex;
+flex-direction: column;
+}
+.headerz {
+    height: 50px;
+    width: 100px;
+}
+.textbox {
+    flex-grow: 1;
+    width: 100%;
+}
+.home-img {
+    height: 50px;
+    width: 100%;
+}
