@@ -1,0 +1,23 @@
+.grid-kontejner {
+    display: grid;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: teal;
+    gap: 5px;
+}
+.blue {
+    background-color:blue;
+}
+.red {
+    background-color:red;
+}
+.cyan {
+    background-color:cyan;
+    grid-row: 3/6;
+    grid-column: 4;
+}
+.purple {
+    background-color:purple;
+    grid-row: 4;
+    grid-column: 2/5;
+}
